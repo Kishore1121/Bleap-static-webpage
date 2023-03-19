@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+/* nav container design */
+.nav-container{
+    padding: 20px 30px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page{
+    color: #F9629F;
+    text-decoration: none;
+}
+
+/* main content design */
+
+.first-container{
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.bleap-content-para {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.bleap-content-para h1{
+   font-size: 50px;
+}
+
+.bleap-content-para p{
+    margin-top: 20px;
+    font-size: 28px;
+ }
+
+.bleap-content-para ul{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+ }
+
+::marker {
+    color: #F9629F;
+ }
+
+.second-container{
+    margin: 30px 0 30px 0;
+    padding: 0px 0px 0px 12px;
+    display: flex;
+ }
+
+.second-container h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+.third-container{
+    padding: 15px;
+    background: linear-gradient(139.1deg, rgba(212, 0, 173, 0.6) -27.32%, rgba(228, 55, 0, 0.67) 111.46%);
+ }
+#content{
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#content li a{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fourth-container{
+    margin: 30px 0 50px 0;
+    padding: 0px 0px 0px 12px;
+    display: flex;
+ }
+
+ /* Tab container design*/
+
+.fourth-container h2{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+ .container {
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: -300px;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .tabs h3 {
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CBCBCB;
+    margin-left: 0%;
+  }
+  .tab-content {
+    margin-left: 40%;
+  }
+  .tab-content h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 600;
+  }
+  .tab-content p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+    color: #202238;
+  }
+  .tab-content div {
+    display: none;
+  }
+  .tab-content .active {
+    display: block;
+  }
+  .tabs .active {
+    background-color: #ffffff;
+    color: #000000;
+  }
+ 
+ /* Ecommerce solutions design */
+
+ .Ecommerce-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+ }
+
+ .Ecommerceheader{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 12px;
+ }
+
+ .Ecommerceheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+ .Ecommerce-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    padding: 0 5rem 0 5rem;
+ }
+
+.Ecommerce-content h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.Ecommerce-content img{
+    margin-bottom: 20px;
+}
+
+.Ecommerce-content p{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.Ecommerce-content a{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(139.1deg, rgba(212, 0, 173, 0.6) -27.32%, rgba(228, 55, 0, 0.67) 111.46%);
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-left: 120px;
+}
+
+.firstcontainer p{
+    margin-bottom: 10px;
+}
+
+/* .Thirdcontainer {
+    margin-bottom: 50px;
+} */
+
+/* Website design */
+
+.webdesignheader{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 12px;
+ }
+
+
+.PHPfirstcontainer p{
+    margin-bottom: 20px;
+}
+
+.webdesignheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+ .webdesign-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    padding: 0 5rem 0 5rem;
+    margin-bottom: 50px;
+ }
+
+.webdesign-content h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.webdesign-content img{
+    margin-bottom: 20px;
+}
+
+.webdesign-content p{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.webdesign-content a{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(139.1deg, rgba(212, 0, 173, 0.6) -27.32%, rgba(228, 55, 0, 0.67) 111.46%);
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-left: 120px;
+}
+
+/* Testimonail content */
+.testimonial-container{
+    margin-bottom: 50px;
+}
+.testimonialheader{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 12px;
+ }
+
+ .testimonialheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+ .testimonial-content p{
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: 150px;
+    color: #000000;
+ }
+
+
+  /* Default slide */ 
+  .my-slider .slick-slide{
+	color:#000000;
+    /* width: 300px; */
+	/* height: 300px; */
+	margin: 0 15px 0 0;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.4s ease-in-out;
+  }
+  
+  .slick-next, .slick-prev{
+	z-index: 5;
+  }
+  
+  .slick-next:before, .slick-prev:before{
+	color: #000;
+	font-size: 26px;
+  }
+  
+  .client-review{
+	margin-top:-130px;
+	margin-left:500px;
+	border-left:3px solid #D130B3;
+  }
+  
+  .client-review h3{
+	  margin-left:10px;
+  }
+  
+  .client-review h4{
+	   margin-top:-20px;
+	   margin-left:10px;
+       color: rgba(0, 0, 0, 0.3);
+  }
+
+.my-slide p{
+    font-size: 30px;
+    margin-bottom: 100px;
+    color: #000000 ;
+  }
+
+.vector-img{
+     margin-top: -250px;
+     height: 0px;
+}
+
+.vector-img1{
+    margin-bottom: -50px;
+    height: 0px;
+}
+
+/* work content design */
+
+.work-container{
+    margin-bottom: 100px;
+}
+.workheader{
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0px 0px 0px 12px;
+ }
+
+ .workheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+ .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:start;
+}
+.carousel{
+    width:90%;
+    margin:0px auto;
+}
+.slick-slide{
+    margin:10px;
+}
+.slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+}
+.wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:black;
+}
+.number{
+    border:1px solid black;
+    height:20px;
+    width:30px;
+    border-radius:50%;
+    color:#ffffff;
+    background:#000;
+    text-align:center;
+    margin: 10px 0 5px 0 ;
+}
+
+
+
+/* Clients design */
+.clientheader{
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0px 0px 0px 12px;
+ }
+.clientheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+.clientimage-content1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    cursor: pointer;
+    margin-bottom: 8rem;
+}
+.clientimage-content2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    cursor: pointer;
+}
+.client-imgs{
+    height: 82.22px;
+    width: 190px;
+}
+.client-imgs:hover{
+    opacity: 0.2;
+}
+
+.clients-image-container{
+    margin-bottom: 150px;
+}
+
+/* Faq container */
+
+.Faqcontainer{
+    margin-bottom: 100px;
+}
+
+.FAQheader{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 12px;
+ }
+
+ .FAQheader h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 10px;
+ }
+
+
+ .faq-heading{
+    padding: 20px 60px;
+}
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-container1{
+    margin-left: 40rem;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: 0 0 20px 210px ;
+    width: 50%; 
+    padding: auto;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    /* color: #777; */
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+ 
+
+/* form container */
+.form-container{
+    background-color:#F9F9F9;
+    padding: 2rem 10rem;
+    margin-bottom: 80px;
+}
+
+.form-header h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.form-header p{
+   color:rgba(0, 0, 0, 0.5);
+   padding-bottom: 20px;
+}
+
+.radio-checkbox1{
+    margin-bottom: 10px;
+}
+
+/* Footer design */
+.footer-container{
+    margin-left: 10rem;
+    margin-bottom: 80px;
+}
+.footer-heading p{
+    font-size: 3rem;
+    color: #F9629F;
+}
+.footer-heading h1{
+    font-size: 3.5rem;
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
